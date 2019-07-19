@@ -1,0 +1,5 @@
+GET         /api/create-index/:indexName                 com.brevitaz.controllers.ProductController.createIndex(indexName: String)
++ nocsrf
+POST        /api/create-product                          com.brevitaz.controllers.ProductController.insertProduct
++ nocsrf
+POST        /api/search-product                          com.brevitaz.controllers.ProductController.search

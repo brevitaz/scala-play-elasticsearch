@@ -1,0 +1,44 @@
+# Ignore Play! working directory
+bin/
+/db
+/lib/
+/logs/
+/modules
+/project/project
+/project/target
+/target
+tmp/
+test-result
+server.pid
+*.eml
+.cache
+
+# sbt specific
+.history/
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+build/
+
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+.idea
+*.log
+*.iml
+*.ipr
+*.iws
+
+# other?
+.history
+.scala_dependencies
+.cache-main
+
+#general
+*.class
+
