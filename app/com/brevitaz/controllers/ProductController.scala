@@ -1,13 +1,11 @@
 package com.brevitaz.controllers
 
 import com.brevitaz.elasticsearch.ElasticOperation
-import com.brevitaz.models.{RequestModel, ResponseModel, SearchRequest}
 import com.brevitaz.services.ProductService
 import javax.inject._
-import models.{ResponseModel, SearchRequest}
+import com.brevitaz.models.{RequestModel, ResponseModel, SearchRequest}
 import play.api.libs.json.{JsError, JsValue, Json}
 import play.api.mvc._
-
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
